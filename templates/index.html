@@ -5,15 +5,18 @@
 <title>Online Recharge </title>
 <!--<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />-->
      <link rel="stylesheet"  href="{{url_for('static',filename='/bootstrap.css')}} ">
+    <link rel="stylesheet"  href="{{url_for('static',filename='/bootstrap-select.css')}} ">
 
-<link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
-<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /><!-- Fontawesome-CSS -->
+<!--<link rel="stylesheet" href="css/bootstrap-select.css">&lt;!&ndash; bootstrap-select-CSS &ndash;&gt;-->
+    <link rel="stylesheet" href="{{url_for('static',filename='/bootstrap-select.css')}}">
+<!--<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />&lt;!&ndash; Fontawesome-CSS &ndash;&gt;-->
     <link rel="stylesheet" href="{{url_for('static',filename='/font-awesome.css')}}">
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script type='text/javascript' src="/static/js/jquery-2.2.3.min.js"></script>
+    <script src="{{url_for('static',filename='/js/jquery-2.2.3.min.js')}}"></script>
 <!-- Custom Theme files -->
 <!--theme-style-->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />-->
     <link rel="stylesheet"  href="{{url_for('static',filename='/style.css')}} ">
 <!--//theme-style-->
 <!--meta data-->
@@ -226,14 +229,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="agileits-tab_nav">
 					<ul class="resp-tabs-list hor_1">
 						<li><i class="icon fa fa-mobile" aria-hidden="true"></i>Mobile</li>
-						<li><i class="icon fa fa-television" aria-hidden="true"></i>DTH</li>
+						<li><i class="icon fa fa-television" aria-hidden="true"></i>Television</li>
 						<li><i class="icon fa fa-credit-card" aria-hidden="true"></i>Data Card</li>
 						<li><i class="icon fa fa-lightbulb-o" aria-hidden="true"></i>Electricity</li>
-						<li><i class="icon fa fa-phone" aria-hidden="true"></i>Land Line</li>
-						<li><i class="icon fa fa-connectdevelop" aria-hidden="true"></i>Broad Band</li>
 						<li><i class="icon fa fa-flask" aria-hidden="true"></i>Gas</li>
 						<li><i class="icon fa fa-tint" aria-hidden="true"></i>Water</li>
-						<li><i class="icon fa fa-subway" aria-hidden="true"></i>Metro</li>
+
 					</ul>
 					</div>
 					<div class="resp-tabs-container hor_1">
@@ -241,7 +242,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<div>
                             <div class="tabs-box">
                                 
-                    <img src="images/mobile.png" class="w3ls-mobile" alt="" data-pin-nopin="true">
+                    <img src="static/images/mobile.png" class="w3ls-mobile" alt="" data-pin-nopin="true">
                 <ul class="tabs-menu">
                     <li><a href="#tab1"><label class="radio"><input type="radio" name="radio" checked=""><i></i>Prepaid</label></a></li>
                     <li><a href="#tab2"><label class="radio"><input type="radio" name="radio"><i></i>Postpaid</label></a></li>
@@ -265,49 +266,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <select class="selectpicker show-tick" data-live-search="true" required="required" >
                                   <option data-tokens="Select Operator">Select Operator</option>
                                   <option data-tokens="Airtel">Airtel</option>
-                                  <option data-tokens="Aircel">Aircel</option>
-                                  <option data-tokens="BSNL">BSNL</option>
-                                  <option data-tokens="Tata Docomo">Tata Docomo</option>
-                                  <option data-tokens="Reliance GSM">Reliance GSM</option>
-                                  <option data-tokens="Reliance CDMA">Reliance CDMA</option>
-                                  <option data-tokens="Telenor">Telenor</option>
-                                  <option data-tokens="Jio">Jio</option>
-                                  <option data-tokens="Vodafone">Vodafone</option>
-                                  <option data-tokens="Idea">Idea</option>
-                                  <option data-tokens="MTS">MTS</option>
+                                  <option data-tokens="Aircel">Vodacom</option>
+                                  <option data-tokens="Tigo">Tigo</option>
+                                  <option data-tokens="Halotel">Halotel</option>
                                 </select>
                                 </div>
                             </li>
-                            <li>
-                                <div class="agileits-select">
-                                <select class="selectpicker show-tick" data-live-search="true" required="required" >
-                                  <option data-tokens="Select Circle">Select Circle</option>
-                                  <option data-tokens="Chennai">Chennai</option>
-                                  <option data-tokens="Delhi NCR">Delhi NCR</option>
-                                  <option data-tokens="Kolkata">Kolkata</option>
-                                  <option data-tokens="Mumbai">Mumbai</option>
-                                  <option data-tokens="Maharashtra & Goa">Maharashtra & Goa</option>
-                                  <option data-tokens="Assam">Assam</option>
-                                  <option data-tokens="Bihar & Jharkhand">Bihar & Jharkhand</option>
-                                  <option data-tokens="Gujarat">Gujarat</option>
-                                  <option data-tokens="Haryana">Haryana</option>
-                                  <option data-tokens="Himachal Pradesh">Himachal Pradesh</option>
-                                  <option data-tokens="Jummu & Kashmir">Jummu & Kashmir</option>
-                                  <option data-tokens="Karnataka">Karnataka</option>
-                                  <option data-tokens="Kerala">Kerala</option>
-                                  <option data-tokens="Andhra Pradesh">Andhra Pradesh</option>
-                                  <option data-tokens="MP & Chattisgarh">MP & Chattisgarh</option>
-                                  <option data-tokens="North East">North East</option>
-                                  <option data-tokens="Orissa">Orissa</option>
-                                  <option data-tokens="Punjab">Punjab</option>
-                                  <option data-tokens="Rajasthan">Rajasthan</option>
-                                  <option data-tokens="Tamilnadu">Tamilnadu</option>
-                                  <option data-tokens="UP East">UP East</option>
-                                  <option data-tokens="UP West & Utterkhand">UP West & Utterkhand</option>
-                                  <option data-tokens="West Bengal">West Bengal</option>
-                                </select>
-                                </div>
-                            </li>
+
                             <li>
                                 <div class="mobile-right ">
                                     <h4>How Much To Recharge?</h4>
@@ -484,7 +449,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <div id="tab2" class="tab-grid">
 		                      <div class="login-form">
 						<form action="pay.html" method="post" id="signup">
-						<ol>							
+						<ol>
 							<li>
                                   <h4>Enter your Datacard number</h4>
 								<input type="tel" id="tel" name="tel" pattern="\d{10}" placeholder="Enter Datacard Number" required />
@@ -519,9 +484,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <input type="submit" class="submit" value="Recharge Now" />
                             </li>
 				        </ol>
-						</form>	
-																							
-						</div>	
+						</form>
+
+						</div>
 
                     </div>
                     </div>
@@ -808,7 +773,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="phone" id="mobileappagileits">
 		<div class="container">
 			<div class="col-md-6">
-				<img src="images/ph1.png" class="img-responsive" alt=""/>
+				<img src="static/images/ph1.png" class="img-responsive" alt=""/>
 			</div>
 			<div class="col-md-6 phone-text">
 				<h4>Online Payment mobile app on your smartphone!</h4>
@@ -849,7 +814,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="w3l-support">
 		<div class="container">
 			<div class="col-md-5 w3_agile_support_left">
-				<img src="images/cus.jpg" alt=" " class="img-responsive" />
+				<img src="static/images/cus.jpg" alt=" " class="img-responsive" />
 			</div>
 			<div class="col-md-7 w3_agile_support_right">
 				<h5>Online Recharge</h5>
@@ -1024,10 +989,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!--//footer-->
     
 <!-- for bootstrap working -->
-		<script src="js/bootstrap.js"></script>
+		<script src="static/js/bootstrap.js"></script>
 <!-- //for bootstrap working --><!-- Responsive-slider -->
     <!-- Banner-slider -->
-<script src="js/responsiveslides.min.js"></script>
+<script src="static/js/responsiveslides.min.js"></script>
    <script>
     $(function () {
       $("#slider").responsiveSlides({
@@ -1041,7 +1006,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- //Banner-slider -->
 <!-- //Responsive-slider -->   
 <!-- Bootstrap select option script -->
-<script src="js/bootstrap-select.js"></script>
+<script src="static/js/bootstrap-select.js"></script>
 <script>
   $(document).ready(function () {
     var mySelect = $('#first-disabled2');
@@ -1066,7 +1031,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     
 <!-- easy-responsive-tabs -->    
 <link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css " />
-<script src="js/easyResponsiveTabs.js"></script>
+<link rel="stylesheet"  href="{{url_for('static',filename='/easy-responsive-tabs.css')}} ">
+<script src="static/js/easyResponsiveTabs.js"></script>
 <!-- //easy-responsive-tabs --> 
     <!-- here stars scrolling icon -->
 			<script type="text/javascript">
@@ -1085,8 +1051,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					});
 			</script>
 			<!-- start-smoth-scrolling -->
-			<script type="text/javascript" src="js/move-top.js"></script>
-			<script type="text/javascript" src="js/easing.js"></script>
+			<script type="text/javascript" src="static/js/move-top.js"></script>
+			<script type="text/javascript" src="static/js/easing.js"></script>
 			<script type="text/javascript">
 				jQuery(document).ready(function($) {
 					$(".scroll").click(function(event){		

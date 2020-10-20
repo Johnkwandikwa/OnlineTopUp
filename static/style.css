@@ -175,7 +175,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #1cebe1;
 }
 .banner1{
-	background: url(../images/2.jpg) no-repeat;
+	background: url(/static/images/2.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -184,7 +184,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-background-size: cover;
 }
 .banner2{
-	background: url(../images/4.jpg) no-repeat;
+	background: url(/static/images/4.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -193,7 +193,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-background-size: cover;
 }
 .banner3{
-	background: url(../images/5.jpg) no-repeat;
+	background: url(/static/images/5.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -202,7 +202,7 @@ ul.callbacks_tabs.callbacks1_tabs {
   -o-background-size: cover;
 }
 .banner4{
-	background: url(../images/1.jpg) no-repeat;
+	background: url(/static/images/1.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
@@ -228,7 +228,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin: 0 1%;
 }
 .content-grid{
-	background: url(../images/back1.jpg);
+	background: url(/static/images/back1.jpg);
 	width:100%;
 	min-height: 500px;
 	background-size: cover;
@@ -505,7 +505,7 @@ p.cost {
   color: #000;
 }
 .col-md1 span{
-	background: url(../images/star1.png) 0px 0px no-repeat;
+	background: url(/static/images/star1.png) 0px 0px no-repeat;
 	display: block;
 	width:40px;
 	height: 40px;
@@ -554,7 +554,7 @@ a.more:hover{
 /*--//project--*/
 /*--offers--*/
 .w3-offers {
-  background: url(../images/offer-bg.jpg) no-repeat center;
+  background: url(static/images/offer-bg.jpg) no-repeat center;
   width: 100%;
   min-height: 250px;
   display: block;

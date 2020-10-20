@@ -175,16 +175,16 @@ ul.callbacks_tabs.callbacks1_tabs {
     color: #1cebe1;
 }
 .banner1{
-	background: url(../images/2.jpg) no-repeat;
+	background: url('/static/images/2.jpg') no-repeat;
 	width:100%;
-	min-height: 700px;
+	min-height: 600px;
 	background-size: cover;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 .banner2{
-	background: url(../images/4.jpg) no-repeat;
+	background: url(.static/images/4.jpg) no-repeat;
 	width:100%;
 	min-height: 700px;
 	background-size: cover;
