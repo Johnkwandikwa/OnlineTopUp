@@ -14,11 +14,15 @@ def index():
         else:
             return redirect(url_for('index'))
 
-    return redirect('index')
+    return render_template('index.html')
 
 @app.route('/movies')
 def movies():
     return render_template('movies.html')
+
+@app.route('/pay')
+def pay():
+    return render_template('pay.html')
 
 
 
