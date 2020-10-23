@@ -24,6 +24,14 @@ def movies():
 def pay():
     return render_template('pay.html')
 
+@app.route('/shortcodes')
+def shortcodes():
+    return render_template('shortcodes.html')
+
+@app.route('/select-show')
+def selectshow():
+    return render_template('select-show.html')
+
 
 
 
