@@ -554,7 +554,7 @@ a.more:hover{
 /*--//project--*/
 /*--offers--*/
 .w3-offers {
-  background: url(static/images/offer-bg.jpg) no-repeat center;
+  background: url(/static/images/offer-bg.jpg) no-repeat center;
   width: 100%;
   min-height: 250px;
   display: block;
@@ -613,7 +613,7 @@ a.more-in{
 	line-height: 1.6em;
 }
 i.dolor{
-	background:url(../images/arr.png) no-repeat 0px 0px;
+	background:url(/static/images/arr.png) no-repeat 0px 0px;
 	width:400px;
 	min-height:52px;
 	display:block;
@@ -893,7 +893,7 @@ ul.social li{
 ul.social  li i{
 	width: 16px;
 	height: 16px;
-	background: url(../images/img-sprite.png) no-repeat 2px -2px ;
+	background: url(/static/images/img-sprite.png) no-repeat 2px -2px ;
 	display: block;
 	margin: 0 5px;
 }
@@ -924,7 +924,7 @@ transform: rotatey(360deg);
 }
 /*--buy--*/
 .banner-buying {
-  background: url(../images/4.jpg) no-repeat;
+  background: url(/static/images/4.jpg) no-repeat;
   width: 100%;
   min-height: 250px;
   background-size: cover;
@@ -1264,7 +1264,7 @@ figure.effect-layla h4.effect3{
 /*----*/
 /*--premium--*/
 .premium {
-  	background: url(../images/pr.jpg) no-repeat center;
+  	background: url(/static/images/pr.jpg) no-repeat center;
  	width: 100%;
   	min-height: 550px;
   	background-size: cover;
@@ -1386,11 +1386,11 @@ span.fur-money{
 }
 .nbs-flexisel-nav-left {
 	left: 0px;
-	background: url(../images/img-sprite.png) no-repeat -130px 0px;
+	background: url(/static/images/img-sprite.png) no-repeat -130px 0px;
 }
 .nbs-flexisel-nav-right {
 	right: 0px;
-	background: url(../images/img-sprite.png) no-repeat -153px 0px ;
+	background: url(/static/images/img-sprite.png) no-repeat -153px 0px ;
 }
 /*--//--*/
 /*--contact--*/
@@ -2141,7 +2141,7 @@ ul.login-icons li a.in:hover {
 }
 ul.login-icons li a i {
 	display: inline-block;
-  	background: url(../images/img-sprite.png)no-repeat 11px -135px #0A3284;
+  	background: url(/static/images/img-sprite.png)no-repeat 11px -135px #0A3284;
   	width:48px;
   	height:48px;
   	vertical-align: middle;
@@ -2149,13 +2149,13 @@ ul.login-icons li a i {
 }
 
 ul.login-icons li a.twit i {
-  	background: url(../images/img-sprite.png)no-repeat -60px -135px #1191F4;
+  	background: url(/static/images/img-sprite.png)no-repeat -60px -135px #1191F4;
 }
 ul.login-icons li a.go i {
-  	background: url(../images/img-sprite.png)no-repeat -142px -135px #E43B25;
+  	background: url(/static/images/img-sprite.png)no-repeat -142px -135px #E43B25;
 }
 ul.login-icons li a.in i {
-  	background: url(../images/img-sprite.png)no-repeat -215px -135px #238FC3;
+  	background: url(/static/images/img-sprite.png)no-repeat -215px -135px #238FC3;
 }
 ul.login-icons li a span{
 	padding: 0 0 0 5%;
@@ -2508,7 +2508,7 @@ span.agile-breadcrumbs a i:hover  {
 /*-- //breadcrumbs --*/
 /*-- Feedback page --*/
 .agileits-inner-banner {
-    background: url(../images/2.jpg) no-repeat;
+    background: url(/static/images/2.jpg) no-repeat;
     min-height: 200px;
     background-size: cover;
     -webkit-background-size: cover;
@@ -2836,7 +2836,7 @@ a.btn.btn-primary {
     outline: none;
     font-size: 16px;
     margin-bottom: 0;
-    background: url(../images/arrow.png) no-repeat 96% center #ffffff;
+    background: url(/static/images/arrow.png) no-repeat 96% center #ffffff;
     background-size: 4% !important;
     -webkit-appearance: none;
 }
@@ -4267,7 +4267,7 @@ abbr[title], abbr[data-original-title] {
 	height: 32px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/top-arrow.png) no-repeat 0px 0px;
+	background: url(/static/images/top-arrow.png) no-repeat 0px 0px;
 }
 #toTopHover {
 	width: 32px;
