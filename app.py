@@ -32,6 +32,10 @@ def shortcodes():
 def selectshow():
     return render_template('select-show.html')
 
+@app.route('/plans')
+def plans():
+    return  render_template('plans.html')
+
 
 
 
